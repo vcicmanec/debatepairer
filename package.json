@@ -1,7 +1,6 @@
 {
   "name": "debatepairer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -31,5 +30,6 @@
   "bugs": {
     "url": "https://github.com/vcicmanec/debatepairer/issues"
   },
-  "homepage": "https://github.com/vcicmanec/debatepairer#readme"
+  "homepage": "https://github.com/vcicmanec/debatepairer#readme",
+  "description": ""
 }
