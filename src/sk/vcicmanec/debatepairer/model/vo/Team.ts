@@ -21,6 +21,24 @@ export class Team {
         }
     }
 
+    public get allHeldPositionsWereUnique():boolean{
+        for (let i = 0, count = this.positionsHeld.length; i < count; i++) {
+            let posi = this.positionsHeld[i];
+
+            for (let j = 0, countj = this.positionsHeld.length; j < countj; j++) {
+                if(j == i)
+                    continue;
+
+                let  posj = this.positionsHeld[j];
+
+                if(posi == posj)
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
     public get membersPoints():number{
         let result:number = 0;
 
@@ -30,6 +48,4 @@ export class Team {
 
         return result;
     }
-
-
 }

@@ -1,7 +1,7 @@
-import {Debate} from "../src/sk/vcicmanec/debatepairer/model/vo/Debate";
-import {DebateType} from "../src/sk/vcicmanec/debatepairer/model/enum/DebateType";
-import {Team} from "../src/sk/vcicmanec/debatepairer/model/vo/Team";
-import {DebatePosition} from "../src/sk/vcicmanec/debatepairer/model/enum/DebatePosition";
+import {DebateType} from "../../src/sk/vcicmanec/debatepairer/model/enum/DebateType";
+import {Debate} from "../../src/sk/vcicmanec/debatepairer/model/vo/Debate";
+import {Team} from "../../src/sk/vcicmanec/debatepairer/model/vo/Team";
+import {DebatePosition} from "../../src/sk/vcicmanec/debatepairer/model/enum/DebatePosition";
 describe("Debate", function () {
     var debate:Debate = new Debate(DebateType.BRITISH_PARLIAMENTARY);
 
