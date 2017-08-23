@@ -16,7 +16,8 @@
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.0",
-    "karma-typescript": "^3.0.5"
+    "karma-typescript": "^3.0.5",
+    "typescript": "^2.4.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
