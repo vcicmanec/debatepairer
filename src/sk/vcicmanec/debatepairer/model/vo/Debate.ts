@@ -25,13 +25,13 @@ export class Debate {
         if(!position)
             position = this.freePositions[0];
 
+        if(this.teams.length >= this.properties.teamCount)
+            throw new Error("Cannot add another team, debate is full");
+
         if(!this.isPositionFree(position))
             throw new Error("Cannot add team to position " + position + " it is already taken");
 
-        if(this.teams.length >= this.properties.teamMemberCount)
-            throw new Error("Cannot add another team, debate is full");
-
-        this.teams[position] = team;
+        this.teams.push(team);
 
         let index:number = this.freePositions.indexOf(position);
 

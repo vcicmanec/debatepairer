@@ -20,26 +20,8 @@ module.exports = function(config) {
             "karma-jasmine",
             "karma-chrome-launcher"
         ],
-        karmaTypescriptConfig:{
-            compilerOptions:{
-                "compilerOptions": {
-                    "module": "amd",
-                    "noImplicitAny": true,
-                    "removeComments": true,
-                    "preserveConstEnums": true,
-                    "target": "es5",
-                    "sourceMap": true,
-                    "allowUnreachableCode": true
-                },
-                "include": [
-                    "src/**/*.ts"
-                ],
-                "exclude": [
-                    "node_modules",
-                    "**/Main.ts",
-                    "**/*.spec.ts"
-                ]
-            }
+        karmaTypescriptConfig: {
+            tsconfig: "karma.tsconfig.json"
         }
     });
 };

@@ -9,6 +9,7 @@
     "karma": "^1.7.0"
   },
   "devDependencies": {
+    "@types/jasmine": "^2.5.54",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "jasmine": "^2.7.0",
