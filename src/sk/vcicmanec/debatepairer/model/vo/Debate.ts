@@ -3,7 +3,6 @@ import {DebatePosition} from "../enum/DebatePosition";
 import {DebateType} from "../enum/DebateType";
 import {DebatePropertiesBase} from "./debateproperties/DebatePropertiesBase";
 import {DebatePropertiesFactory} from "./debateproperties/DebatePropertiesFactory";
-import {TournamentModel} from "../TournamentModel";
 export class Debate {
 
     private teams:Team[];

@@ -1,5 +1,6 @@
 import {Debate} from "./vo/Debate";
 import {DebateType} from "./enum/DebateType";
+import * as Combinatorics from "js-combinatorics";
 export class TournamentModel {
 
     private static _instance: TournamentModel;

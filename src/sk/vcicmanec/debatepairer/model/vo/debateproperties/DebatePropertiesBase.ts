@@ -4,10 +4,9 @@ export class DebatePropertiesBase implements IDebateProperties{
     public type:number;
     public teamMemberCount:number;
     public teamCount:number;
-    protected _positions:DebatePosition[]
+    protected _positions:DebatePosition[];
 
     constructor() {
-
     }
 
     public get positions():DebatePosition[]{

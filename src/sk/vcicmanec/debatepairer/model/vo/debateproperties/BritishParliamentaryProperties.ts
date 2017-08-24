@@ -1,4 +1,3 @@
-import {IDebateProperties} from "../../interface/IDebateProperties";
 import {DebateType} from "../../enum/DebateType";
 import {DebatePropertiesBase} from "./DebatePropertiesBase";
 import {DebatePosition} from "../../enum/DebatePosition";
