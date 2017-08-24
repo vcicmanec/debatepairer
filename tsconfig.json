@@ -1,20 +1,18 @@
 {
   "compilerOptions": {
-    "module": "amd",
+    "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
     "target": "es5",
-    "outFile": "out/assets/js/debatepairer.js",
     "sourceMap": true,
-    "allowUnreachableCode": true
+    "allowUnreachableCode": true,
+    "moduleResolution": "node"
   },
   "include": [
     "src/**/*"
   ],
   "exclude": [
-    "node_modules",
-    "**/Main.ts",
     "test/**/*",
     "**/*.spec.ts"
   ]

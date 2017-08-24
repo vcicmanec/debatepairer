@@ -1,8 +1,12 @@
+import {Debate} from "./vo/Debate";
+import {DebateType} from "./enum/DebateType";
 export class TournamentModel {
 
     private static _instance: TournamentModel;
 
     constructor() {
+        new Debate(DebateType.BRITISH_PARLIAMENTARY);
+
         if (TournamentModel._instance)
             throw new Error('Multiple instantiation attempted on class sk.vcicmanec.debatepairer.model.TournamentModel');
     }
